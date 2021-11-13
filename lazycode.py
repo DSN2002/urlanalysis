@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #* Author: DSN2002
 #* Date: 2021-11-12 17:40
-#* LastEditTime: 2021-11-13 13:30
+#* LastEditTime: 2021-11-13 15:49
 #* LastEditors: DSN2002
 #* Description:
 #* 仅供研究使用，请勿用于其他活动
@@ -157,4 +157,4 @@ while n > 0:
     else:
         break
 ##  继续运行程序
-    i = g.ccbox(msg="要继续吗?", title="懒人脚本", choices=("继续", "不了"), image=None)
+    n = int(g.ccbox(msg="要继续吗?", title="懒人脚本", choices=("继续", "不了"), image=None))
